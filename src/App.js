@@ -3,6 +3,10 @@ import './App.css';
 import React from 'react';
 import ChildCompoent from './childComponent';
 import ComponentDidMountMethod from './componentDidMountMethod';
+import { ShouldComponentUpdateMethod } from './shouldComponentUpdateMethod';
+import { GetSnapshotBeforeUpdateMethod } from './getSnapshotBeforeUpdateMethod';
+import { ComponentDidUpdateMountMethod } from './componentDidUpdateMethod';
+import { ComponentWillUnmountMethod } from './componentWillUnmountMethod';
 
 class App extends React.Component{
   // constructor(props){
@@ -16,6 +20,10 @@ class App extends React.Component{
       <div className="App">
        <ChildCompoent nameFromFromParent = {"getDerivedStateFromProps"} />
        <ComponentDidMountMethod />
+       <ShouldComponentUpdateMethod /> 
+        <GetSnapshotBeforeUpdateMethod />
+       <ComponentDidUpdateMountMethod />
+       <ComponentWillUnmountMethod />
       </div>
     );
   }

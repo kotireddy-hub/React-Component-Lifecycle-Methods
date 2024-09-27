@@ -34,7 +34,7 @@ export default class ComponentDidMountMethod extends Component{
         {
           (data)?.map( (d) => {
             const { id , name} = d || {};
-            <p key={id}>{name}</p>
+            return <p key={id}>{name}</p>
           }
           )
         }

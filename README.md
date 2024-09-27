@@ -69,6 +69,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
+[Fetch Method URL](https://www.freecodecamp.org/news/how-to-fetch-data-from-an-api-using-the-fetch-api-in-javascript/)
+
 ### React LifeCycle Methods 
 1. Mounting
 2. Updating 
@@ -79,3 +81,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 2. getDerivedStateFromProps()
 3. render()
 4. componentDidMount()
+
+### Updating
+1. getDerivedStateFromProps()
+2. shouldComponentUpdate()
+3. render()
+4. getSnapshotBeforeUpdate()
+5. componentDidUpdate()
+
+### Unmounting
+1. componentWillUnmount()
